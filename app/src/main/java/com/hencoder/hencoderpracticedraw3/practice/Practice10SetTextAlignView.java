@@ -36,6 +36,7 @@ public class Practice10SetTextAlignView extends View {
         // 使用 Paint.setTextAlign() 来调整文字对齐方式
 
         // 第一处：使用 Paint.Align.LEFT
+        paint.setTextAlign(Paint.Align.LEFT);
         canvas.drawText(text, getWidth() / 2, 100, paint);
 
         // 第二处：使用 Paint.Align.CENTER
